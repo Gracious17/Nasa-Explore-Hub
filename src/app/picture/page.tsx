@@ -41,7 +41,8 @@ export default function PicturePage(){
                   
                   src={data.url}
                   alt={data.title}
-                  fill
+                  width={400}
+                  height={400}
                   className="w-full max-h-[500px] object-cover rounded shadow"
                   />  
                 ):(
